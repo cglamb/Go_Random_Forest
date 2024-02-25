@@ -8,7 +8,7 @@ Note:  Data is zipped and must be unzipped manually.  Data should be saved to a 
 **Git Clone Command:** `git clone https://github.com/cglamb/Go_Random_Forest.git`
 
 ## Introduction
-This project evaluates the performance of a random forest model across three programming languages: Golang, R, and Python. It aims to compare runtime and resource utilization using identical datasets, tree counts, and features considered at each split. This work extends previous research on voting ensembles found [here](https://github.com/cglamb/Voting_Ensemble_Spam), incorporating EDA, data scrubbing, text preprocessing, and tokenization from that project. The data, a labeled SMS spam dataset from UCI Machine Learning and Esther Kim, is available on [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download).
+This project evaluates the performance of a random forest model across three programming languages: Golang, R, and Python. It aims to compare runtime and resource utilization using identical datasets, tree counts, and features considered at each split. This work extends my previous research on voting ensembles found [here](https://github.com/cglamb/Voting_Ensemble_Spam). EDA, data scrubbing, text preprocessing, and tokenization work is borrowed from that earlier work. The original data, a labeled SMS spam dataset from UCI Machine Learning and Esther Kim, is available on [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download).
 
 ## Experiment Design
 Data processing is handled in `Data_Prep.ipynb`, producing test and training datasets split 50/50, saved as CSVs in the `/Data` folder for consistency across languages.

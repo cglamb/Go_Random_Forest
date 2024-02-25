@@ -26,7 +26,7 @@ Five separate models were fit in each language using a different combination of 
 
 *Note: Some metrics were not measured.
 
-It should be noted that as default parametrization is different across the different languages and because random seeding was not controlled across the three different languages, the Go, R, and Python fitted models vary.  Although with similar F-scores on identical test data (at least between Go and Python), I am comfortable that the models are materially the same (and therefore the above runtime comparisons are more or less apples-to-apples).  It is interesting to note that the R models had a materially better F-score versus the other two models.  This bears further review but was not researched further in this analysis.  
+It should be noted that as default parametrization is different across the different languages and because random seeding was not controlled across the three different languages, the Go, R, and Python fitted models vary.  Although with similar F-scores on identical test data (at least between Go and Python), I am comfortable that the models are materially the same (and therefore the above runtime comparisons are more or less apples-to-apples).  It is interesting to note that the R models had a materially better F-score versus the other two models.  This bears further review but had not been researched further as of this writting.
 
 ## Recommendation
 Go runtimes were extremely better than R.  On the other hand, Python experienced better runtimes than Go across every parameterization.  Additionally, the Python model appeared to scale better with runtime increasing by 2.8 times between 100 trees and 1000 trees (holding constant features at split), while Go had a 12.6 fold increase across the same dimension.

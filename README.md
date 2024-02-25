@@ -14,7 +14,7 @@ This project evaluates the performance of a random forest model across three pro
 All data processing is performed in Data_Prep.ipynb.  Test and training datasets are generated via this same Juypter notebook.  50% of original dataset was assigned to the training dataset and 50% to the testing dataset.  Both sets are exported as CSVs (and saved in this repository within a zip folder).  These CSV files were read into the Go, Python, and R codes.  By performing a single test/train split in Juypter notebook, we ensure all three software packages get the exact same test and training data.
 
 ## Overall Findings
-Five separate models were fit in each model using a different combination of number of trees and max features at branches.  The exhibit below shows runtime and F-score for each model across each of the three languages.  Additional profiling reports are saved for both the Go and R scrips in the log folder.  These include metrics associated with memory usage.  
+Five separate models were fit in each language using a different combination of number of trees and max features at branches.  The exhibit below shows runtime and F-score for each model across each of the three languages.  Additional profiling reports are saved for both the Go and R scrips in the log folder.  These include metrics associated with memory usage.  
 
 | # Trees | Features at Split | Go RunTime (secs) | Go Test F-Score | R RunTime (secs) | R Test F-Score | Python RunTime (secs) | Python Test F-Score |
 |---------|-------------------|-------------------|-----------------|------------------|----------------|-----------------------|---------------------|

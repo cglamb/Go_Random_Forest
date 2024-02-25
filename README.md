@@ -51,7 +51,7 @@ The random forest was implemented in Python using sklearn (https://scikit-learn.
 - `Data.csv` - Raw data, requires manual extraction to a `Data` folder.
 - `/Logs/` - Contains logs for Go, R, and Python codes, including data preparation logs.
 - `Data_Prep.ipynb` - Jupyter notebook for data preparation.
-- `RF.go`, `RF_test.go`, `RF.r`, `RF.py` - Implementation files for Golang, R, and Python.
+- `RF.go`, `RF_test.go`, `RF.r`, `RF.py` - Random forest implemenation files in Golang, R, and Python.
 - `RF_go.exe` - Executable for the Golang implementation.
 
 ## Areas of Further Research / Enhancement

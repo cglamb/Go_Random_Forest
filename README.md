@@ -33,7 +33,7 @@ Go runtimes were extremely better than R.  On the other hand, Python experienced
 
 Go’s advantage versus R is not surprising as R’s random forest library computed serially, which meant Go’s ability to take advantage of concurrency resulted in substantially improved runtime.  On the other hand, Python’s substantial outperformance of Go is perhaps somewhat surprising.  Although the Python library used to perform the computation allows for parallel computation and thus eliminates most of Go’s advantage.
 
-I suspect the underperformance of Go versus Python has to do with efficiencies in the underlying random forest library used in Go.  The Go library used is a repository with 3 contributors and 114 stars, while the sklearn library used in Python is supported by a massive community with support from institutional and private grants.
+I suspect the underperformance of Go versus Python has to do with inefficiencies in the underlying random forest library used in Go.  The Go library used is a repository with 3 contributors and 114 stars, while the sklearn library used in Python is supported by a massive community with support from institutional and private grants.
 
 My final recommendation is that Go is likely computational more efficient than R, and users in R should consider Go as an alternative…particularly if users are paying for compute (as in a cloud environment).  On the other hand, I do not see the same benefit versus Python…and my research suggests that users worried about computational efficiency should perhaps consider Python over Go.  
 

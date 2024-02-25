@@ -55,7 +55,7 @@ The random forest was implemented in Python using sklearn (https://scikit-learn.
 - `RF_go.exe` - Executable for the Golang implementation.
 
 ## Areas of Further Research / Enhancement
-The underlying data in this analysis is imbalanced, with only 13% of the original corpus being spam.  As the Golang library being used does not support class weighting, no effort was made to address the data imbalance in this exercise.  A more accurate prediction could be achieved by applying an under sampling approach before modeling data.
+The underlying data in this analysis is imbalanced, with only 13% of the original corpus being spam.  As the Golang library being used does not support class weighting, no effort was made to address the data imbalance in this exercise.  A more accurate prediction could be achieved by applying an under sampling approach before model training. 
 
 The golang random forest library used in this exercise has limited ability to adjust parameterization compared to similar random forest libraries in Python and R.  Many users involved in anything other than preliminary/light modeling will want significantly more flexibility to hyper tune parameters.  As such, users may want to explore other random forest libraries in Golang that allow for greater adjustment to underlying parameters or develop their own random forest application in Go.  
 

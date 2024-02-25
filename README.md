@@ -1,5 +1,7 @@
 # Random Forest Analysis in Golang
 
+Note:  Data is zipped and must be unzipped manually.  Data should be saved to a folder called Data 
+
 **Author:** Charles Lamb  
 **Contact Info:** charlamb@gmail.com  
 **GitHub Project URL:** [Go Random Forest](https://github.com/cglamb/Go_Random_Forest)  

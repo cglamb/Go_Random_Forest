@@ -39,10 +39,10 @@ My final recommendation is that Go is likely computational more efficient than R
 
 
 ## Golang Implementation
-The random forest was implemented in Golang using Andy Sun’s random forest library available at: https://github.com/fxsjy/RF.go/tree/master.  The library by default includes support for goroutines allowing for trees to be calculated concurrently.  Sun’s library also includes a prediction function which was used to make predictions against the test data.  Custom functions were developed to calculate accuracy, precision, recall, and f1 score.  Profiling was competed using the pprof library.  The resource utilization diagram produced by pprof is available at Log/Go/Go Profile (100 trees and 100 features at split)
+The random forest was implemented in Golang using Andy Sun’s random forest library available at: https://github.com/fxsjy/RF.go/tree/master.  The library by default includes support for goroutines allowing for trees to be calculated concurrently.  Sun’s library also includes a prediction function which was used to make predictions against the test data.  Custom functions were developed to calculate accuracy, precision, recall, and f1 score.  Profiling was completed using the pprof library.  The resource utilization diagram produced by pprof is available at Log/Go/Go Profile (100 trees and 100 features at split)
 
 ## R Implementation
-The random forest was implemented in R using Breiman and Cutler’s random forest library: https://www.stat.berkeley.edu/~breiman/RandomForests/.  Runtime and resource utilization was tracked using R Studios (2023.12.1) built in profiling tool.  Profile reports and console logs are saved in /logs/R.
+The random forest was implemented in R using Breiman and Cutler’s random forest library: https://www.stat.berkeley.edu/~breiman/RandomForests/.  Runtime and resource utilization was tracked using R Studio's (2023.12.1) built in profiling tool.  Profile reports and console logs are saved in /logs/R.
 
 ## Python Implementation
 The random forest was implemented in Python using sklearn (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).  Sklearn supports parallel processing using the n_jobs parameter.  
